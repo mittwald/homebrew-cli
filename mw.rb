@@ -1,15 +1,15 @@
 class Mw < Formula
   desc "The mittwald command-line tool"
   homepage "https://github.com/mittwald/cli"
-  url "https://mittwald-cli.s3.eu-central-1.amazonaws.com/versions/1.13.1-beta.5/1278fdb/mw-v1.13.1-beta.5-1278fdb-darwin-x64.tar.xz"
-  sha256 "e78f12749570d53e4d3d6bee44e39a41737ee91ede149755c1bfc9572dda8762"
-  version "1.13.1-beta.5"
+  url "https://mittwald-cli.s3.eu-central-1.amazonaws.com/versions/1.13.1-beta.6/ff18e7a/mw-v1.13.1-beta.6-ff18e7a-darwin-x64.tar.xz"
+  sha256 "b6aeeb09dacd3416afe9729beb71be6416bf49fea383a5dd27dc4a0e1cb012f4"
+  version "1.13.1-beta.6"
   version_scheme 1
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://mittwald-cli.s3.eu-central-1.amazonaws.com/versions/1.13.1-beta.5/1278fdb/mw-v1.13.1-beta.5-1278fdb-darwin-arm64.tar.xz"
-      sha256 "b3b3cd135a49ff6363c8128aeaf2dba3519576f30cc4854a0247dbaac403a807"
+      url "https://mittwald-cli.s3.eu-central-1.amazonaws.com/versions/1.13.1-beta.6/ff18e7a/mw-v1.13.1-beta.6-ff18e7a-darwin-arm64.tar.xz"
+      sha256 "788db9da55926516cb51ae10b7e80e4079bf97462e5a3e4779b8bbb1e5acb09e"
     end
   end
 
